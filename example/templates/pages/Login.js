@@ -25,7 +25,7 @@ const styles = {
   },
 };
 
-class Login extends Component {
+class ${PAGE_NAME} extends Component {
   constructor() {
     super();
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -110,4 +110,4 @@ const mapStateToProps = (state) => {
     isLoading,
   };
 };
-export default connect(mapStateToProps, mapDispatchToProps)(Login);
+export default connect(mapStateToProps, mapDispatchToProps)(${PAGE_NAME});
