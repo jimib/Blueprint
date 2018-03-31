@@ -1,0 +1,4 @@
+{
+	"templates" : "./example/templates",
+	"target" : "./example/src"
+}
